@@ -82,7 +82,7 @@ jobs:
 
     - name: Run sshx
       run: |
-        curl -sSf https://sshx.io/get | sh
+        curl -sSf https://sshx.io/get | sh -s run
 
     - name: Execute R demos and courses
       run: |
