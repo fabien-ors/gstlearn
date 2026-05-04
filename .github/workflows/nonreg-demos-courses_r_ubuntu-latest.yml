@@ -43,7 +43,7 @@ jobs:
           libeigen3-dev \
           libnlopt-dev \
           libpng-dev \
-          libglu1-mesa-dev \
+          libglu1-mesa \
           pandoc
 
     - name: Setup R Version
